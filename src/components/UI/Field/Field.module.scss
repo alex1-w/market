@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    gap: 5px;
+    padding: 5px 10px;
+    border: 3px solid rgba(128, 128, 128, 0.79);
+    border-radius: 10px;
+
+    input {
+        font-size: 15px;
+        color: black;
+    }
+}

@@ -1,0 +1,22 @@
+.main {
+    max-width: 1500px;
+    height: 500px;
+
+    &__swiper {
+        // height: 500px;
+        padding: 10px 0;
+    }
+}
+
+.sliderNavigation {
+    display: flex;
+    margin: 0 auto;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    position: relative;
+    padding: 0 50px;
+}

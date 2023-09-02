@@ -1,0 +1,22 @@
+.main {
+    position: relative;
+    width: 100px;
+    height: 110px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+
+    svg {
+        // scale: 2;
+        height: 3em;
+    }
+}
+
+.name {
+    position: absolute;
+    bottom: 0;
+}

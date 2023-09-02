@@ -1,0 +1,11 @@
+.main {
+    cursor: pointer;
+    position: absolute;
+    top: 33%;
+    right: 0;
+    z-index: 10;
+
+    svg {
+        transform: rotate(180deg);
+    }
+}   

@@ -1,0 +1,17 @@
+.main {
+    border: 1-px solid red;
+}
+
+.content {
+    position: fixed;
+    bottom: 1%;
+    right: 2%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        height: 4em;
+    }
+}

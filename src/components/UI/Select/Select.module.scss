@@ -1,0 +1,14 @@
+.selectBlock {
+    height: 60px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(43, 43, 43, 0.616);
+
+    &:focus {
+        border: none;
+    }
+
+    option {
+        background-color: rgb(38, 38, 38);
+    }
+}

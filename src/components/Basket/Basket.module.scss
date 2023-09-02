@@ -1,0 +1,70 @@
+.main {
+    position: absolute;
+    background-color: #afb6b6;
+    bottom: 10%;
+    right: 0;
+    width: 280px;
+    height: 80vh;
+    max-height: 700px;
+    min-height: 300px;
+    z-index: 10;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h3 {
+        text-align: center;
+    }
+
+    
+}
+
+.head {
+    // border: 1px solid red;
+    padding: 5px 0 0 15px;
+    // padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+
+    >div {
+        background-color: rgba(0, 0, 255, 0.238);
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+
+        svg {
+            fill: white;
+            height: 30px;
+            transition: scale 0.2s;
+
+            &:hover {
+                transition: scale 0.2s;
+                scale: 1.1;
+            }
+        }
+    }
+}
+
+.productBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    // overflow-y: scroll;
+}
+
+.basketBlock {
+    cursor: pointer;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

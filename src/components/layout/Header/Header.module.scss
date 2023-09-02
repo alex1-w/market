@@ -1,0 +1,40 @@
+.main {
+    margin: 0 auto;
+    // max-width: 1700px;
+    background-color: white;
+    padding: 20px 30px;
+    box-shadow: 0px -5px 8px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    >div:nth-child(1) {
+        justify-self: flex-start;
+    }
+
+    >div:nth-child(2) {
+        justify-self: center;
+    }
+}
+
+.userInterface {
+    justify-self: flex-end;
+
+    p {
+        cursor: pointer;
+    }
+
+    a {
+        &:hover {
+            transition: 0.2s all;
+            svg {
+                transition: 0.2s all;
+                scale: 1.2;
+            }
+        }
+    }
+}
